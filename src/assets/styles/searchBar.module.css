@@ -1,0 +1,37 @@
+.search {
+  padding: 4px 4px 4px 0;  
+  width: 100%;
+  max-width: 25rem;
+  /* width: 500px; */
+  border: 1px solid #f8f7c8;
+  height: fit-content;
+  border-radius: 8px;
+  vertical-align: baseline;
+  background-color: #22252d;
+}
+
+.searchInput{
+  display: block;
+  width: 100%;
+  padding: 0.3rem;
+  background-color: #282c34;
+  font-family: inherit;
+  font-size: 1.2rem;
+  color: #f8f7c8;
+}
+
+.searchInput.searchIcon {
+  /* height: 20px;
+  width: 20px; */
+  /* background: left / contain url('./../img/icon/key-score-sol-tone-g.svg') no-repeat; */
+  background: url('./../img/icon/key-score-sol-tone-g.svg') 8px / 20px no-repeat;
+  padding: 0 0 0 3.0rem;
+}
+
+.searchInput:focus::placeholder{
+  color: transparent;
+}
+
+@media screen and (min-width: 1240px) {
+
+}

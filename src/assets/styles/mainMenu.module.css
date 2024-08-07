@@ -1,0 +1,11 @@
+.mainTitle {
+  text-align: left;
+  font-size: 1.2rem;
+  /* color: wheat; */
+  color: #ffaa00;
+}
+
+.mainNav {
+  display: flex;
+  margin: 1rem 0;
+}

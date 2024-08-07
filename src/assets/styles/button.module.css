@@ -1,0 +1,41 @@
+.btn {
+  padding: .5rem 1.5rem;
+  font-size: 1rem;
+  font-size: 22px;
+  /* color: hsl(317 100% 54%); */
+  /* color: hsl(200 100% 50%); */
+  /* color: #fbd288; */
+  color: #f8f7c8;
+  color: #86898c;
+  cursor: pointer;
+  /* border: hsl(200 100% 50%) 0.125em solid; */
+  /* border: #282c34 0.125em solid;
+  border-radius: 0.25em;
+  transition: 0.3s; */
+  background: var(--bg02);
+  border: 2px solid var(--border01);
+  box-shadow: var(--box-shadow01);
+  line-height: 3rem;
+  border-radius: 1.8em;
+  /* border: 3px solid var(--border02);
+  background: var(--bg03);
+  box-shadow: var(--box-shadow06); */
+  
+  transition: all 0.3s ease;
+}
+
+/* .btn:hover{
+  box-shadow: 0 0 35px hsl(200 100% 50%);
+  border: hsl(200 100% 50%) 0.125em solid;
+  color: hsl(200 100% 50%);
+} */
+
+.btn:active {
+  box-shadow: var(--box-shadow02);
+  /* font-size: 21px; */
+}
+
+
+li + li {
+  margin-left: 1.5rem;
+}
