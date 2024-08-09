@@ -15,6 +15,9 @@ function SearchBar() {
           value={itemInput}
           onChange={(e) => setItemInput(e.target.value)}
         />
+        <button className={styles.btnC} id="search">
+          <i className="fi fi-rr-search"></i>
+        </button>
       </form>
     </>
   )

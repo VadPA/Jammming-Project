@@ -9,10 +9,10 @@ const CHOICES = [
   { name: 'Podcasts' },
 ]
 
-function MainMenu() {
+function MainMenu(props) {
 
-  function handleUserChoice(choice) {
-
+  function handleUserChoice(e) {
+    console.log('Selected ' + e)
   }
 
   return (
@@ -21,11 +21,11 @@ function MainMenu() {
       <nav>
         <ul className={styles.mainNav}>
           {CHOICES.map((choice) => (
-            <li>
+            <li key={choice.name}>
               <Button
                 name={choice.name}
                 key={choice.name}
-                onClick={() => handleUserChoice(choice)}
+                onSelectButton={handleUserChoice}
                 aria-label={choice.name}
               />
             </li>
